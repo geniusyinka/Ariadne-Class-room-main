@@ -13,36 +13,64 @@
 
 <body>
     <header>
-        <nav class="nav-bar">
-            <h1> ariadne class</h1>
+        <nav> 
+               <div class="nav-bar">
+                    <div class="logo-box">
+                            <img src="image/Ariadne Class.png" class="logo">
+                        </div>
+                        <ul>
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">How it works</a></li>
+                            <li><a href="#">courses</a></li>
+                            <li><a href="#">FAQ</a></li>
+                            <li><a href="#">CONTACT US</a></li>
+                            <li><a href="#">LOGIN</a></li>
+                        </ul>
+            
+               </div>
         </nav>
     </header>
     <main>
+
         <div class="main-content">
-            <h2> Ariadne class for Teachers</h2>
-            <span class="main-btn">
-                <a href="/users/google-oauth/" class="btn">
-
-                    <img class="btn-img" alt="Google &quot;G&quot; Logo"
-                        src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" />
-
-                    Sign up with Google</a>
+            <span class="main-text">
+                <h2> Sign Up</h2>
+                <p>Sign up as a teacher or a student</p>
             </span>
-            <h3> <span>or</span> </h3>
+
 
             <div class="form">
                 <form method="post" action="#" name="my form">
-                   
-                        <p>
-                            <input type="email" name="email" placeholder="Email or Username">
+
+                    <p>
+                        <input type="text" name="firstname" class="one" placeholder="first Name">
+                    </p>
+                    <p>
+                        <input type="text" name="lastname" class="two" placeholder="Last Name">
+                    </p>
+                    <p>
+                        <input type="email" name="email" placeholder="Email">
+                    </p>
+                    <p>
+                        <input type="text" name="username" placeholder="Username">
+                    </p>
+                    <p>
+                        <input type="password" name="pword" placeholder="Password">
+                    </p>
+                    <p>
+                        <input type="password" name="pword" placeholder=" Repeat Password">
+                    </p>
+                    <p>
+                            <input list="users" type="text" placeholder="select an option">
+
+                            <datalist id="users">
+                                <option value="teacher"></option>
+                                <option value="student"></option>
+                            </datalist>
                         </p>
-                        <p>
-                            <input type="password" name="pword" placeholder="Password">
-                        </p>
-                        <p>
-                            <input type="password" name="pword" placeholder=" Repeat Password">
-                        </p>
-                  
+                       
+
+
 
                 </form>
             </div>
@@ -55,6 +83,16 @@
                 </div>
                 </p>
                 <a href="#" class="btn">Create your account</a>
+                <h3> <span>or</span> </h3>
+                <span class="main-btn">
+                    <a href="/users/google-oauth/" class="btn">
+
+                        <img class="btn-img" alt="Google &quot;G&quot; Logo"
+                            src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/53/Google_%22G%22_Logo.svg/512px-Google_%22G%22_Logo.svg.png" />
+
+                        Sign up with Google</a>
+                </span>
+
             </section>
         </div>
 
